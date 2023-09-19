@@ -16,9 +16,16 @@ function numsToString (numbers) {
 console.log(numsToString(fib()));
 
 function numEvenNums (numbers) {
-  return _.filter(numbers, function (num) {return num % 2 ===0;})
+  return _.filter(numbers, function (num) {return num % 2 ===0;}).length;
+
 }
 console.log(numEvenNums(fib()));
+
+
+
+
+
+
 
 
 
